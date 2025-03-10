@@ -1,0 +1,84 @@
+/* General body styles  background-image: linear-gradient(#6497b1,#011f4b); */
+body {
+    background-image: linear-gradient(#6497b1,#011f4b);
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* Center the image */
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Styling for the card */
+.card {
+    border: none;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* Form elements */
+.form-control {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    padding: 12px;
+    font-size: 19px;
+    border-radius: 10px;
+    background-color:#b3cde0;
+    color: #011f4b;
+    text-align: center;
+}
+
+.custom-color{
+    color: rgb(170, 169, 169);
+}
+/* Link text */
+a {
+    color: #002853;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Flexbox adjustments */
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
